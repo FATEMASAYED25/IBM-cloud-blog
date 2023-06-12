@@ -21,15 +21,13 @@ html{
 
 }
 .header-page{
-    background-image: url("imgs/ibm\ inroduction\ cloud\ course.png");
-    min-height: 100vh;
-    background-size: cover;
-    position: relative;
-    background-repeat: no-repeat;/*for responsive background*/
-    background-position: center center;
-    background-attachment: fixed;
-
-
+    height: 90vh;
+    width:100%;
+    
+}
+.header-page img{
+  width:100%;
+  height: 100%;
 }
 
 /* Typeography General*/
@@ -208,17 +206,39 @@ margin: auto;
 }
 .myimage{
     width:20%;
-    margin: 50px;
+
 }
 
 .myimage img{
-    width:90%;
+    width:100%;
     
 }
 .mylinks{
-    width:40%;
-    padding-top: 20px;
+    width:70%;
+    margin: auto;
+   
 }
+@media (max-width:991px){
+    .myinformation{
+    display:block;
+}
+.myimage{
+
+    margin: auto;
+}
+
+.myimage img{
+    width:100%;
+    
+}
+.mylinks{
+    width:100%;
+    text-align: center;
+   
+}
+}
+
+
 
 /*add some styles to webpage to be responsive with the small and mobile devices */
 
@@ -277,7 +297,7 @@ display:block;
 
 <!--start cloud introduction stucy guide!-->
 <div class="header-page">
-
+    <img src="imgs/ibm inroduction cloud course.png">
 
 </div>
 
